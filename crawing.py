@@ -2,9 +2,8 @@ import requests
 from bs4 import BeautifulSoup
 import pandas as pd 
 import json
-import psutil
-import cpuinfo
 
+#제품 갯수가 15개임으로 1~15까지 반복하도록 실행 
 for i in range(1,16):
     URL = "https://www.intel.co.kr/content/www/kr/ko/products/compare.html?productIds=236847,240961,241060,240958,240956,241062,241063,240957,240954,241066,241067,240951,240959,240955,240960"
     response = requests.get(URL)
@@ -21,6 +20,7 @@ for i in range(1,16):
     max_hz = soup.find_all('td',{'data-key':'ClockSpeedMax'})
     origin_hz = soup.find_all('td',{'data-key':'PCoreBaseFreq'})
 
+    #반복문을 통해 딕셔너리에 정보들 저장. 
     for collection, core_count, thread_num, max_hz_v, origin_hz_v in zip(collections, core, thread, max_hz, origin_hz):
         
         collection_text = collection.get_text(strip=True) if collection else ''
@@ -38,11 +38,13 @@ for i in range(1,16):
         }
         
         data.append(products_dic)
-    
+
+#JSON파일로 데이터 저장     
 with open("product_compare.json",'w',encoding='UTF-8') as f:
     json.dump(data, f, ensure_ascii=False, indent=4 ) #들여쓰기(indent): 4
 print(data)
 
+#엑셀파일로 저장하기 
 #json 파일 읽어서 표 형식으로 정렬하기
 with open('product_compare.json','r',encoding = 'UTF=8') as f:
     read_data = json.load(f) 
