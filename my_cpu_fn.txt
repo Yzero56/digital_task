@@ -1,0 +1,3 @@
+CPU 모델명: Intel(R) Core(TM) Ultra 7 155H
+CPU 속도: 1.4GHz
+코어 수 : 16개

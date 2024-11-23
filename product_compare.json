@@ -1,0 +1,107 @@
+[
+    {
+        "제품 콜렉션": "Intel® Core™ Ultra processors (Series 1)",
+        "코어 수": "16",
+        "스레드 수": "22",
+        "최대 터보 주파수": "4.8 GHz",
+        "Performance-core 기본 주파수": "1.4 GHz"
+    },
+    {
+        "제품 콜렉션": "Intel® Core™ Ultra Processors (Series 2)",
+        "코어 수": "8",
+        "스레드 수": "8",
+        "최대 터보 주파수": "4.7 GHz",
+        "Performance-core 기본 주파수": "2.1 GHz"
+    },
+    {
+        "제품 콜렉션": "Intel® Core™ Ultra Processors (Series 2)",
+        "코어 수": "8",
+        "스레드 수": "8",
+        "최대 터보 주파수": "4.8 GHz",
+        "Performance-core 기본 주파수": "2.2 GHz"
+    },
+    {
+        "제품 콜렉션": "Intel® Core™ Ultra Processors (Series 2)",
+        "코어 수": "8",
+        "스레드 수": "8",
+        "최대 터보 주파수": "4.5 GHz",
+        "Performance-core 기본 주파수": "2.1 GHz"
+    },
+    {
+        "제품 콜렉션": "Intel® Core™ Ultra Processors (Series 2)",
+        "코어 수": "8",
+        "스레드 수": "8",
+        "최대 터보 주파수": "5 GHz",
+        "Performance-core 기본 주파수": "2.2 GHz"
+    },
+    {
+        "제품 콜렉션": "Intel® Core™ Ultra Processors (Series 2)",
+        "코어 수": "8",
+        "스레드 수": "8",
+        "최대 터보 주파수": "4.8 GHz",
+        "Performance-core 기본 주파수": "2.2 GHz"
+    },
+    {
+        "제품 콜렉션": "Intel® Core™ Ultra Processors (Series 2)",
+        "코어 수": "8",
+        "스레드 수": "8",
+        "최대 터보 주파수": "5 GHz",
+        "Performance-core 기본 주파수": "2.2 GHz"
+    },
+    {
+        "제품 콜렉션": "Intel® Core™ Ultra Processors (Series 2)",
+        "코어 수": "8",
+        "스레드 수": "8",
+        "최대 터보 주파수": "4.7 GHz",
+        "Performance-core 기본 주파수": "2.1 GHz"
+    },
+    {
+        "제품 콜렉션": "Intel® Core™ Ultra Processors (Series 2)",
+        "코어 수": "8",
+        "스레드 수": "8",
+        "최대 터보 주파수": "4.5 GHz",
+        "Performance-core 기본 주파수": "2.1 GHz"
+    },
+    {
+        "제품 콜렉션": "Intel® Core™ Ultra Processors (Series 2)",
+        "코어 수": "8",
+        "스레드 수": "8",
+        "최대 터보 주파수": "5.1 GHz",
+        "Performance-core 기본 주파수": "3.3 GHz"
+    },
+    {
+        "제품 콜렉션": "Intel® Core™ Ultra Processors (Series 2)",
+        "코어 수": "24",
+        "스레드 수": "24",
+        "최대 터보 주파수": "5.7 GHz",
+        "Performance-core 기본 주파수": "3.7 GHz"
+    },
+    {
+        "제품 콜렉션": "Intel® Core™ Ultra Processors (Series 2)",
+        "코어 수": "20",
+        "스레드 수": "20",
+        "최대 터보 주파수": "5.5 GHz",
+        "Performance-core 기본 주파수": "3.9 GHz"
+    },
+    {
+        "제품 콜렉션": "Intel® Core™ Ultra Processors (Series 2)",
+        "코어 수": "20",
+        "스레드 수": "20",
+        "최대 터보 주파수": "5.5 GHz",
+        "Performance-core 기본 주파수": "3.9 GHz"
+    },
+    {
+        "제품 콜렉션": "Intel® Core™ Ultra Processors (Series 2)",
+        "코어 수": "14",
+        "스레드 수": "14",
+        "최대 터보 주파수": "5.2 GHz",
+        "Performance-core 기본 주파수": "4.2 GHz"
+    },
+    {
+        "제품 콜렉션": "Intel® Core™ Ultra Processors (Series 2)",
+        "코어 수": "14",
+        "스레드 수": "14",
+        "최대 터보 주파수": "5.2 GHz",
+        "Performance-core 기본 주파수": "4.2 GHz"
+    }
+]
