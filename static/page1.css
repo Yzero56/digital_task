@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#Mothercontainer {
+    display: flex;
+    flex-direction: column; /* 자식 요소를 세로로 배치 */
+    align-items: center;    /* 수평 가운데 정렬 */
+    justify-content: center; /* 수직 가운데 정렬 */
+    height: 100vh;          /* 화면 전체 높이 */   
+}
+
+#content {
+    font-size: 60px; 
+    font-weight: bold;
+    color: black;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.button {
+    background-color: #23848A;  
+    color: white;
+    font-size: 30px; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    text-decoration: none; /* 밑줄 제거 */
+    display: inline-block; /* 버튼처럼 보이도록 */
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #92c1c4;
+    color: black; /* 텍스트 색상 변경 */
+}
