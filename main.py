@@ -104,6 +104,7 @@ def log_system_info():
     
 if __name__ == '__main__':
     
+    #내 cpu정보 출력하기 
     my_cpu_load()
     
     #나의 컴퓨터 정보 10s마다 생성하기 

@@ -14,7 +14,7 @@ soup = BeautifulSoup(html, "html.parser")
 link = []
 complete_link = []
 items = soup.find_all('a', class_ = "ark-accessible-color")
-print(items)
+#print(items)
 
 for item in items:
     save = item.get('href')
@@ -52,6 +52,8 @@ for name_v in items:
 
 unique_name = list(dict.fromkeys(name))
 
+
+    
 for i in unique_name:
     print(i)
 

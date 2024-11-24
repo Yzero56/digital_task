@@ -25,7 +25,7 @@
     color: white;
     font-size: 30px; 
     padding: 10px 20px;
-    border: none;
+    border: 2px;
     border-radius: 20px;
     text-decoration: none; /* 밑줄 제거 */
     display: inline-block; /* 버튼처럼 보이도록 */

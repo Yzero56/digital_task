@@ -8,7 +8,7 @@
 </head>
 <body>
     
-    <h1>CPU 사양 비교</h1>
+    <h1 id="compares">기본 CPU 사양 비교</h1>
     <table id="datatable1">
         <tr>
             <th>항목</th>
@@ -18,37 +18,37 @@
         </tr>
         <tbody>
             <tr>
-                <th>제품 콜렉션</th>
+                <th class="names">제품명</th>
                 {%for item in data%}
                 <td>{{item['제품명']}}</td>
                 {%endfor%}
             </tr>
             <tr>
-                <th>코어 수</th>
+                <th class="names">코어 수</th>
                 {%for item in data%}
                 <td>{{item['코어 수']}}</td>
                 {%endfor%}
             </tr>
             <tr>
-                <th>스레드 수</th>
+                <th class="names">스레드 수</th>
                 {%for item in data%}
                 <td>{{item['스레드 수']}}</td> 
                 {%endfor%}
             </tr>
             <tr>
-                <th>최대 터보 주파수</th>
+                <th class="names">최대 터보 주파수</th>
                 {%for item in data%}
                 <td>{{item['최대 터보 주파수']}}</td> 
                 {%endfor%}
             </tr>
             <tr>
-                <th>Performance-core 기본 주파수</th>
+                <th class="names">Performance-core 기본 주파수</th>
                 {%for item in data%}
                 <td>{{item['Performance-core 기본 주파수']}}</td>
                 {%endfor%}
             </tr>
             <tr>
-                <th>링크</th>
+                <th class="names">링크</th>
                 {%for item in data%}
                 <td><a href="https://www.intel.co.kr/{{item['링크']}}", target_= "_blank">{{item['링크']}}</a></td>
                 {%endfor%}
@@ -56,8 +56,8 @@
         </tbody>
     </table>
 
-    <h2>내 CPU 사양</h2>
-    <table id="dadtatable2">
+    <h1 id="myCpu">내 CPU 사양</h1>
+    <table id="datatable2">
         <tr>
             <th>항목</th>
             <th>내 제품</th>
@@ -66,7 +66,7 @@
             {%for key, value in my_cpu.items()%}
             
             <tr>
-                <td>{{key}}</td>
+                <td class="keys">{{key}}</td>
                 <td>{{value}}</td>
             </tr>
             {%endfor%}

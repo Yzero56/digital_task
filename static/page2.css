@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+#compares {
+    margin-bottom: 20px;
+}
+
 #load {
     display: flex;
     text-align: center;
@@ -18,17 +22,40 @@
     border-collapse: collapse;
     width: 100%;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 35px;
+    
 }
 
 tr, td{
     padding: 10px;
     border: 1px solid #ddd;
 }
+
 th {
     background-color: #f2f2f2;
     font-weight: bold;
+    padding: 3px;
 }
+
+.names {
+    min-width: 150px; 
+
+}
+
+#datatable2 {
+    border-collapse: collapse;
+    text-align: center;
+}
+#myCpu {
+    margin-bottom: 15px;
+}
+
+.keys {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    color: black;
+}
+
 td {
     background-color: #fff;
     color: #666;
