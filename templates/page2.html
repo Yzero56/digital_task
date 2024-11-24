@@ -7,19 +7,20 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='page2.css') }}">
 </head>
 <body>
+    
     <h1>CPU 사양 비교</h1>
     <table id="datatable1">
         <tr>
             <th>항목</th>
-            {%for i in range(data|length)%}
-            <th>제품{{loop.index }}</th>
+            {%for i in range(data|length)%} <!--data에 length 필터 적용, 즉 15개의 데이터 -> length 필터 -> 15, 데이터의 길이만큼 반복문 실행 여기서는 15번-->
+            <th>제품{{loop.index }}</th> <!--index[0]부터 loop실행됨. jinja2: 1-based indexing임을 유의할 것!-->
             {%endfor%}
         </tr>
         <tbody>
             <tr>
                 <th>제품 콜렉션</th>
                 {%for item in data%}
-                <td>{{item['제품 콜렉션']}}</td>
+                <td>{{item['제품명']}}</td>
                 {%endfor%}
             </tr>
             <tr>
@@ -46,8 +47,15 @@
                 <td>{{item['Performance-core 기본 주파수']}}</td>
                 {%endfor%}
             </tr>
+            <tr>
+                <th>링크</th>
+                {%for item in data%}
+                <td><a href="https://www.intel.co.kr/{{item['링크']}}", target_= "_blank">{{item['링크']}}</a></td>
+                {%endfor%}
+            </tr>
         </tbody>
     </table>
+
     <h2>내 CPU 사양</h2>
     <table id="dadtatable2">
         <tr>
@@ -63,10 +71,10 @@
             </tr>
             {%endfor%}
         </tbody>
-        
+    
     </table>
 
 
-    <script src="{{ url_for('static', filename='index.js') }}"></script>
+    <!--<script src="{{ url_for('static', filename='index.js') }}"></script>-->
 </body>
 </html>

@@ -1,107 +1,122 @@
 [
     {
-        "제품 콜렉션": "Intel® Core™ Ultra processors (Series 1)",
+        "제품명": "Intel® Core™ Ultra 7 Processor 155H",
         "코어 수": "16",
         "스레드 수": "22",
         "최대 터보 주파수": "4.8 GHz",
-        "Performance-core 기본 주파수": "1.4 GHz"
+        "Performance-core 기본 주파수": "1.4 GHz",
+        "링크": "/content/www/kr/ko/products/sku/236847/intel-core-ultra-7-processor-155h-24m-cache-up-to-4-80-ghz/specifications.html"
     },
     {
-        "제품 콜렉션": "Intel® Core™ Ultra Processors (Series 2)",
+        "제품명": "Intel® Core™ Ultra 5 Processor 238V",
         "코어 수": "8",
         "스레드 수": "8",
         "최대 터보 주파수": "4.7 GHz",
-        "Performance-core 기본 주파수": "2.1 GHz"
+        "Performance-core 기본 주파수": "2.1 GHz",
+        "링크": "/content/www/kr/ko/products/sku/240951/intel-core-ultra-5-processor-238v-8m-cache-up-to-4-70-ghz/specifications.html"
     },
     {
-        "제품 콜렉션": "Intel® Core™ Ultra Processors (Series 2)",
+        "제품명": "Intel® Core™ Ultra 7 Processor 256V",
         "코어 수": "8",
         "스레드 수": "8",
         "최대 터보 주파수": "4.8 GHz",
-        "Performance-core 기본 주파수": "2.2 GHz"
+        "Performance-core 기본 주파수": "2.2 GHz",
+        "링크": "/content/www/kr/ko/products/sku/240954/intel-core-ultra-7-processor-256v-12m-cache-up-to-4-80-ghz/specifications.html"
     },
     {
-        "제품 콜렉션": "Intel® Core™ Ultra Processors (Series 2)",
+        "제품명": "Intel® Core™ Ultra 5 Processor 228V",
         "코어 수": "8",
         "스레드 수": "8",
         "최대 터보 주파수": "4.5 GHz",
-        "Performance-core 기본 주파수": "2.1 GHz"
+        "Performance-core 기본 주파수": "2.1 GHz",
+        "링크": "/content/www/kr/ko/products/sku/240955/intel-core-ultra-5-processor-228v-8m-cache-up-to-4-50-ghz/specifications.html"
     },
     {
-        "제품 콜렉션": "Intel® Core™ Ultra Processors (Series 2)",
+        "제품명": "Intel® Core™ Ultra 7 Processor 266V",
         "코어 수": "8",
         "스레드 수": "8",
         "최대 터보 주파수": "5 GHz",
-        "Performance-core 기본 주파수": "2.2 GHz"
+        "Performance-core 기본 주파수": "2.2 GHz",
+        "링크": "/content/www/kr/ko/products/sku/240956/intel-core-ultra-7-processor-266v-12m-cache-up-to-5-00-ghz/specifications.html"
     },
     {
-        "제품 콜렉션": "Intel® Core™ Ultra Processors (Series 2)",
+        "제품명": "Intel® Core™ Ultra 7 Processor 258V",
         "코어 수": "8",
         "스레드 수": "8",
         "최대 터보 주파수": "4.8 GHz",
-        "Performance-core 기본 주파수": "2.2 GHz"
+        "Performance-core 기본 주파수": "2.2 GHz",
+        "링크": "/content/www/kr/ko/products/sku/240957/intel-core-ultra-7-processor-258v-12m-cache-up-to-4-80-ghz/specifications.html"
     },
     {
-        "제품 콜렉션": "Intel® Core™ Ultra Processors (Series 2)",
+        "제품명": "Intel® Core™ Ultra 7 Processor 268V",
         "코어 수": "8",
         "스레드 수": "8",
         "최대 터보 주파수": "5 GHz",
-        "Performance-core 기본 주파수": "2.2 GHz"
+        "Performance-core 기본 주파수": "2.2 GHz",
+        "링크": "/content/www/kr/ko/products/sku/240958/intel-core-ultra-7-processor-268v-12m-cache-up-to-5-00-ghz/specifications.html"
     },
     {
-        "제품 콜렉션": "Intel® Core™ Ultra Processors (Series 2)",
+        "제품명": "Intel® Core™ Ultra 5 Processor 236V",
         "코어 수": "8",
         "스레드 수": "8",
         "최대 터보 주파수": "4.7 GHz",
-        "Performance-core 기본 주파수": "2.1 GHz"
+        "Performance-core 기본 주파수": "2.1 GHz",
+        "링크": "/content/www/kr/ko/products/sku/240959/intel-core-ultra-5-processor-236v-8m-cache-up-to-4-70-ghz/specifications.html"
     },
     {
-        "제품 콜렉션": "Intel® Core™ Ultra Processors (Series 2)",
+        "제품명": "Intel® Core™ Ultra 5 Processor 226V",
         "코어 수": "8",
         "스레드 수": "8",
         "최대 터보 주파수": "4.5 GHz",
-        "Performance-core 기본 주파수": "2.1 GHz"
+        "Performance-core 기본 주파수": "2.1 GHz",
+        "링크": "/content/www/kr/ko/products/sku/240960/intel-core-ultra-5-processor-226v-8m-cache-up-to-4-50-ghz/specifications.html"
     },
     {
-        "제품 콜렉션": "Intel® Core™ Ultra Processors (Series 2)",
+        "제품명": "Intel® Core™ Ultra 9 Processor 288V",
         "코어 수": "8",
         "스레드 수": "8",
         "최대 터보 주파수": "5.1 GHz",
-        "Performance-core 기본 주파수": "3.3 GHz"
+        "Performance-core 기본 주파수": "3.3 GHz",
+        "링크": "/content/www/kr/ko/products/sku/240961/intel-core-ultra-9-processor-288v-12m-cache-up-to-5-10-ghz/specifications.html"
     },
     {
-        "제품 콜렉션": "Intel® Core™ Ultra Processors (Series 2)",
+        "제품명": "Intel® Core™ Ultra 9 Processor 285K",
         "코어 수": "24",
         "스레드 수": "24",
         "최대 터보 주파수": "5.7 GHz",
-        "Performance-core 기본 주파수": "3.7 GHz"
+        "Performance-core 기본 주파수": "3.7 GHz",
+        "링크": "/content/www/kr/ko/products/sku/241060/intel-core-ultra-9-processor-285k-36m-cache-up-to-5-70-ghz/specifications.html"
     },
     {
-        "제품 콜렉션": "Intel® Core™ Ultra Processors (Series 2)",
+        "제품명": "Intel® Core™ Ultra 7 Processor 265KF",
         "코어 수": "20",
         "스레드 수": "20",
         "최대 터보 주파수": "5.5 GHz",
-        "Performance-core 기본 주파수": "3.9 GHz"
+        "Performance-core 기본 주파수": "3.9 GHz",
+        "링크": "/content/www/kr/ko/products/sku/241062/intel-core-ultra-7-processor-265kf-30m-cache-up-to-5-50-ghz/specifications.html"
     },
     {
-        "제품 콜렉션": "Intel® Core™ Ultra Processors (Series 2)",
+        "제품명": "Intel® Core™ Ultra 7 Processor 265K",
         "코어 수": "20",
         "스레드 수": "20",
         "최대 터보 주파수": "5.5 GHz",
-        "Performance-core 기본 주파수": "3.9 GHz"
+        "Performance-core 기본 주파수": "3.9 GHz",
+        "링크": "/content/www/kr/ko/products/sku/241063/intel-core-ultra-7-processor-265k-30m-cache-up-to-5-50-ghz/specifications.html"
     },
     {
-        "제품 콜렉션": "Intel® Core™ Ultra Processors (Series 2)",
+        "제품명": "Intel® Core™ Ultra 5 Processor 245KF",
         "코어 수": "14",
         "스레드 수": "14",
         "최대 터보 주파수": "5.2 GHz",
-        "Performance-core 기본 주파수": "4.2 GHz"
+        "Performance-core 기본 주파수": "4.2 GHz",
+        "링크": "/content/www/kr/ko/products/sku/241066/intel-core-ultra-5-processor-245kf-24m-cache-up-to-5-20-ghz/specifications.html"
     },
     {
-        "제품 콜렉션": "Intel® Core™ Ultra Processors (Series 2)",
+        "제품명": "Intel® Core™ Ultra 5 Processor 245K",
         "코어 수": "14",
         "스레드 수": "14",
         "최대 터보 주파수": "5.2 GHz",
-        "Performance-core 기본 주파수": "4.2 GHz"
+        "Performance-core 기본 주파수": "4.2 GHz",
+        "링크": "/content/www/kr/ko/products/sku/241067/intel-core-ultra-5-processor-245k-24m-cache-up-to-5-20-ghz/specifications.html"
     }
 ]

@@ -1,7 +1,5 @@
 from flask import Flask, render_template
 import json
-import psutil
-import cpuinfo
 
 app = Flask(__name__)
 
