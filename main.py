@@ -3,8 +3,6 @@ import psutil
 import cpuinfo
 import schedule 
 import time 
-import threading
-#from queue import Queue
 
 curr_sent = 0
 curr_recv = 0
@@ -15,7 +13,7 @@ prev_recv = 0
 
 #나의 CPU 정보 출력하기 
 def my_cpu_load():
-    
+    print("내 CPU 정보 출력 시작")
     #cpu 제품명
     cpu_info = cpuinfo.get_cpu_info()
     m = cpuinfo.get_cpu_info()['brand_raw']
@@ -35,9 +33,15 @@ def my_cpu_load():
         f.write(my_cpu)   
         print("내 CPU 정보 출력 완료")
         
+index = 1   
+     
 def log_system_info():
-    global curr_sent, curr_recv, prev_recv, prev_sent
+    global curr_sent, curr_recv, prev_recv, prev_sent, index
     
+    for i in str(index): #이때만 문자열로 변경됨. 
+        print(f"컴퓨터 정보 확인 시작 {i}")
+        index += 1 
+        
     #cpu 제품명
     cpu_info = cpuinfo.get_cpu_info()
     m = cpuinfo.get_cpu_info()['brand_raw']
@@ -71,7 +75,9 @@ def log_system_info():
     prev_recv = curr_recv
     prev_sent = curr_sent
     
-    log_info = (f"CPU 모델명: {m}\n"
+    
+    log_info = (f"[보내기 {int(i)}번째]\n"
+                f"CPU 모델명: {m}\n"
                 f"CPU 속도: {cpu_current_ghz}GHz\n"
                 f"코어: {cpu_core}개\n"
                 f"CPU 사용량: {cpu_p}%\n"
@@ -80,10 +86,12 @@ def log_system_info():
                 f"보내기: {sent}MB 받기: {recv}MB\n"
                 f"\n")
     
-
+    #파일 출력하기 
     with open("log_system_file.txt",'a', encoding="utf-8") as f:
         f.write(log_info)
+        
         #터미널에 출력하기 
+        print(f"[보내기 {int(i)}번째]")
         print(f"CPU 모델명: {m}")
         print(f"CPU 속도: {cpu_current_ghz}GHz")
         print(f"코어: {cpu_core}개")
@@ -93,12 +101,6 @@ def log_system_info():
         print(f"보내기: {sent}MB 받기: {recv}MB")
 
   
-    #나의 컴퓨터 정보 10s마다 생성하기 
-    schedule.every(5).seconds.do(log_system_info)
-
-    while True: 
-        schedule.run_pending() #.run_pending(): 실행할 작업이 있는지를 확인하는 함수
-        time.sleep(0.3)  
     
 
     
@@ -107,9 +109,9 @@ if __name__ == '__main__':
     #내 cpu정보 출력하기 
     my_cpu_load()
     
-    #나의 컴퓨터 정보 10s마다 생성하기 
+    #나의 컴퓨터 정보 5s마다 생성하기 
     schedule.every(5).seconds.do(log_system_info)
 
     while True: 
         schedule.run_pending() #.run_pending(): 실행할 작업이 있는지를 확인하는 함수
-        time.sleep(0.3)  
+        time.sleep(1)  
