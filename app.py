@@ -22,5 +22,6 @@ def page2():
     
     return render_template('page2.html', data=data, my_cpu=my_cpu)       
 
+
 if __name__ == '__main__': #현재 스크립트 파일이 프로그램의 시작점이 맞는지 판단하는 작업. 즉, 스크립트 파일이 메인 프로그램으로 사용될 때와 모듈로 사용될 때를 구분하기 위한 용도!
-    app.run(debug=True)
+    app.run('0.0.0.0', port=5001, debug=True)
