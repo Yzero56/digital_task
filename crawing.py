@@ -35,7 +35,6 @@ print(f"제거 전: {len(link)}")
 print(f"제거 후: {len(filter_task)}")
 
 index = 1
-
 for v_complete_link in complete_link: #1. 인덱스 제공 2. 리스트항목 반환 
     print(f"인덱스: {index}, 링크: {v_complete_link}")
     index += 1
