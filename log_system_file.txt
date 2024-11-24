@@ -1198,3 +1198,59 @@ CPU 사용량: 8.8%
 전체 메모리: 31.6GB
 보내기: 0.0MB 받기: 0.2MB
 
+CPU 모델명: Intel(R) Core(TM) Ultra 7 155H
+CPU 속도: 1.4GHz
+코어: 16개
+CPU 사용량: 2.7%
+사용가능한 메모리: 16.7GB
+전체 메모리: 31.6GB
+보내기: 137.3MB 받기: 3850.6MB
+
+CPU 모델명: Intel(R) Core(TM) Ultra 7 155H
+CPU 속도: 1.4GHz
+코어: 16개
+CPU 사용량: 2.8%
+사용가능한 메모리: 16.8GB
+전체 메모리: 31.6GB
+보내기: 0.1MB 받기: 0.1MB
+
+CPU 모델명: Intel(R) Core(TM) Ultra 7 155H
+CPU 속도: 1.4GHz
+코어: 16개
+CPU 사용량: 0.8%
+사용가능한 메모리: 16.8GB
+전체 메모리: 31.6GB
+보내기: 0.1MB 받기: 0.4MB
+
+CPU 모델명: Intel(R) Core(TM) Ultra 7 155H
+CPU 속도: 1.4GHz
+코어: 16개
+CPU 사용량: 0.9%
+사용가능한 메모리: 16.8GB
+전체 메모리: 31.6GB
+보내기: 0.1MB 받기: 0.3MB
+
+CPU 모델명: Intel(R) Core(TM) Ultra 7 155H
+CPU 속도: 1.4GHz
+코어: 16개
+CPU 사용량: 3.6%
+사용가능한 메모리: 15.9GB
+전체 메모리: 31.6GB
+보내기: 149.1MB 받기: 3940.3MB
+
+CPU 모델명: Intel(R) Core(TM) Ultra 7 155H
+CPU 속도: 1.4GHz
+코어: 16개
+CPU 사용량: 3.3%
+사용가능한 메모리: 15.8GB
+전체 메모리: 31.6GB
+보내기: 0.1MB 받기: 0.2MB
+
+CPU 모델명: Intel(R) Core(TM) Ultra 7 155H
+CPU 속도: 1.4GHz
+코어: 16개
+CPU 사용량: 0.9%
+사용가능한 메모리: 15.9GB
+전체 메모리: 31.6GB
+보내기: 0.1MB 받기: 0.4MB
+

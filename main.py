@@ -16,7 +16,6 @@ prev_recv = 0
 #나의 CPU 정보 출력하기 
 def my_cpu_load():
     
-    print("스레드1 시작")
     #cpu 제품명
     cpu_info = cpuinfo.get_cpu_info()
     m = cpuinfo.get_cpu_info()['brand_raw']
@@ -34,11 +33,10 @@ def my_cpu_load():
     
     with open("my_cpu_fn.txt",'w', encoding='UTF=8') as f:
         f.write(my_cpu)   
-
+        print("내 CPU 정보 출력 완료")
         
 def log_system_info():
     global curr_sent, curr_recv, prev_recv, prev_sent
-    print("스레드2 시작")
     
     #cpu 제품명
     cpu_info = cpuinfo.get_cpu_info()
@@ -85,6 +83,7 @@ def log_system_info():
 
     with open("log_system_file.txt",'a', encoding="utf-8") as f:
         f.write(log_info)
+        #터미널에 출력하기 
         print(f"CPU 모델명: {m}")
         print(f"CPU 속도: {cpu_current_ghz}GHz")
         print(f"코어: {cpu_core}개")
@@ -93,7 +92,7 @@ def log_system_info():
         print(f"전체 메모리: {memory_total}GB")
         print(f"보내기: {sent}MB 받기: {recv}MB")
 
-def schedule_info():    
+  
     #나의 컴퓨터 정보 10s마다 생성하기 
     schedule.every(5).seconds.do(log_system_info)
 
@@ -105,11 +104,11 @@ def schedule_info():
     
 if __name__ == '__main__':
     
-    t1 = threading.Thread(target=my_cpu_load, args=()) #args= target에 지정된 함수를 받는 인수 
-    t2 = threading.Thread(target=log_system_info, args=())
-    t1.start()
-    t2.start() 
+    my_cpu_load()
     
-    #t1, t2가 모두 실행된 후에 t3 실행하기 
-    t3 = threading.Thread(target=schedule_info, args=())
-    t3.start()
+    #나의 컴퓨터 정보 10s마다 생성하기 
+    schedule.every(5).seconds.do(log_system_info)
+
+    while True: 
+        schedule.run_pending() #.run_pending(): 실행할 작업이 있는지를 확인하는 함수
+        time.sleep(0.3)  
