@@ -110,7 +110,7 @@ if __name__ == '__main__':
     my_cpu_load()
     
     #나의 컴퓨터 정보 5s마다 생성하기 
-    schedule.every(5).seconds.do(log_system_info)
+    schedule.every(3).seconds.do(log_system_info)
 
     while True: 
         schedule.run_pending() #.run_pending(): 실행할 작업이 있는지를 확인하는 함수
