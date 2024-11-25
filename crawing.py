@@ -23,19 +23,21 @@ for item in items:
         link.append(save)
 
 unique_task = list(dict.fromkeys(link)) #순서대로 중복 살피기  #set: 순서 신경 안씀. 
+print(unique_task)
+
 
 filter_task = []
 for url in unique_task:
     if "/specifications.html" in url:
         filter_task.append(url)
  
-complete_link.extend(filter_task)
+#omplete_link.extend(filter_task)
 
 print(f"제거 전: {len(link)}")
 print(f"제거 후: {len(filter_task)}")
 
 index = 1
-for v_complete_link in complete_link: #1. 인덱스 제공 2. 리스트항목 반환 
+for v_complete_link in filter_task: #1. 인덱스 제공 2. 리스트항목 반환 
     print(f"인덱스: {index}, 링크: {v_complete_link}")
     index += 1
 
@@ -52,9 +54,6 @@ for name_v in items:
 unique_name = list(dict.fromkeys(name))
 
 
-    
-for i in unique_name:
-    print(i)
 
 index = 1
 for collection in unique_name:  #1. 인덱스 제공 2. 리스트항목 반환 
@@ -70,7 +69,7 @@ max_hz = soup.find_all('td',{'data-key':'ClockSpeedMax'})
 origin_hz = soup.find_all('td',{'data-key':'PCoreBaseFreq'})
 
     
-for collection, core_count, thread_num, max_hz_v, origin_hz_v, v_complete_link in zip(unique_name, core, thread, max_hz, origin_hz, complete_link):
+for collection, core_count, thread_num, max_hz_v, origin_hz_v, v_complete_link in zip(unique_name, core, thread, max_hz, origin_hz, filter_task):
     
     core_text = core_count.get_text(strip = True) if core_count else ''
     thread_text = thread_num.get_text(strip = True) if thread_num else ''
